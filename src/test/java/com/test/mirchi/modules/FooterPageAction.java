@@ -11,7 +11,7 @@ import org.testng.Reporter;
 import com.test.mirchi.helpers.Log;
 
 public class FooterPageAction {
-	public static void Execute(WebDriver driver) throws Exception {
+	public static void footerLinks(WebDriver driver) throws Exception {
 		@SuppressWarnings("unused")
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		List<WebElement> items = driver.findElements(By
@@ -37,7 +37,7 @@ public class FooterPageAction {
 
 			Reporter.log("Found Footer links: ", items.size());
 			Log.info("Found Footer Links");
-			Assert.assertEquals(5, items.size());
+			Assert.assertEquals(6, items.size());
 
 		}
 

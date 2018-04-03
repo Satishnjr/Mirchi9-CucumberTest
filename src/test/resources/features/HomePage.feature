@@ -1,6 +1,6 @@
-Feature: Footer in Mirchi WebSite
+Feature: Mirchi Site
 
-  Scenario: Check all Footer Links
-    When I open mirchi website
-    And I Traverse to Footer
-    Then I select all links and verify if works and lands on right page
+  Scenario: Select Navigation
+    Given user open mirchi website
+    When user click on NavBar
+    Then user select a links and verify if works and lands on right page
