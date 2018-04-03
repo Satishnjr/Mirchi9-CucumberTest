@@ -1,4 +1,4 @@
-Feature: Mirchi Site
+Feature: Mirchi Site Home Page
 
   Scenario: Select Navigation
     Given user open mirchi website

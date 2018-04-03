@@ -9,12 +9,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 
 import com.test.mirchi.helpers.Log;
-import com.test.mirchi.pageobjects.MirchiHomePage;
+import com.test.mirchi.pageobjects.HomePage;
 public class HomePageAction {
 	
 	
 	public static void navBar(WebDriver driver) throws Exception{
-		MirchiHomePage.navbar.click();
+		HomePage.navbar.click();
 		Log.info("Click action is perfromed on NavBar link" );
 		
 		Reporter.log("Click action is perfromed on NavBar link");

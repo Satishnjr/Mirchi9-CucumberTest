@@ -8,9 +8,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.How;
 
-public class MirchiHomePage extends BaseClass {
+public class HomePage extends BaseClass {
 
-	public MirchiHomePage(WebDriver driver) {
+	public HomePage(WebDriver driver) {
 		super(driver);
 	}
 

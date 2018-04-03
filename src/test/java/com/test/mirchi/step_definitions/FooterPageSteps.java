@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.test.mirchi.helpers.Hooks;
 import com.test.mirchi.modules.FooterPageAction;
-import com.test.mirchi.pageobjects.MirchiHomePage;
+import com.test.mirchi.pageobjects.HomePage;
 
 import cucumber.api.java.en.Then;
 
@@ -19,7 +19,7 @@ public class FooterPageSteps {
 	    public FooterPageSteps()
 	    {
 	        driver = Hooks.driver;
-	        PageFactory.initElements(driver, MirchiHomePage.FooterPage.class);
+	        PageFactory.initElements(driver, HomePage.FooterPage.class);
 	        
 	    }
 

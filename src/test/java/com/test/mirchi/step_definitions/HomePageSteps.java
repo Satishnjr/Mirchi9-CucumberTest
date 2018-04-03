@@ -6,7 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.test.mirchi.helpers.Hooks;
 import com.test.mirchi.modules.HomePageAction;
-import com.test.mirchi.pageobjects.MirchiHomePage;
+import com.test.mirchi.pageobjects.HomePage;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -17,7 +17,7 @@ public class HomePageSteps {
 
 	public HomePageSteps() {
 		driver = Hooks.driver;
-		PageFactory.initElements(driver, MirchiHomePage.class);
+		PageFactory.initElements(driver, HomePage.class);
 	}
 
 	@Given("^user open mirchi website$")

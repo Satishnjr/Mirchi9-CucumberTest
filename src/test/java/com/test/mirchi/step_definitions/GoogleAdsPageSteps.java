@@ -5,7 +5,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.test.mirchi.helpers.Hooks;
 import com.test.mirchi.modules.GoogleAdsAction;
-import com.test.mirchi.pageobjects.MirchiHomePage;
+import com.test.mirchi.pageobjects.HomePage;
 
 import cucumber.api.java.en.Then;
 
@@ -14,7 +14,7 @@ public class GoogleAdsPageSteps {
 
 	public GoogleAdsPageSteps() {
 		driver = Hooks.driver;
-		PageFactory.initElements(driver, MirchiHomePage.GoogleAdsPage.class);
+		PageFactory.initElements(driver, HomePage.GoogleAdsPage.class);
 	}
 
 	@Then("^user check for Ads, GoogleAds Should display$")
