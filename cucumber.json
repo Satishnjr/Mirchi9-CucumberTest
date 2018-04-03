@@ -1,0 +1,460 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 33549911299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Check Footer Links",
+        "description": "",
+        "id": "mirchi-site;check-footer-links",
+        "after": [
+          {
+            "result": {
+              "duration": 1445556908,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27134070794,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I open mirchi website",
+            "match": {
+              "location": "HomePageSteps.i_open_mirchi_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162057658,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I Traverse to Footer",
+            "match": {
+              "location": "FooterPageSteps.i_Traverse_to_Footer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 984296822,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I select all links and verify if works and lands on right page",
+            "match": {
+              "location": "FooterPageSteps.i_select_all_links_and_verify_if_works_and_lands_on_right_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mirchi Site",
+    "description": "",
+    "id": "mirchi-site",
+    "keyword": "Feature",
+    "uri": "features/Footer.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8780569932,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Check Footer Links in Mirchi Mobile",
+        "description": "",
+        "id": "mirchi-site-in;check-footer-links-in-mirchi-mobile",
+        "after": [
+          {
+            "result": {
+              "duration": 1634696830,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19849279888,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I open mirchi website in Nexus",
+            "match": {
+              "location": "HeaderNavStepsinNexus.i_open_mirchi_website_in_Nexus()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44646444,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I Traverse to Footer",
+            "match": {
+              "location": "FooterPageSteps.i_Traverse_to_Footer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 415482282,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I select all links and verify if works and lands on right page in Nexus Mobile",
+            "match": {
+              "location": "FooterPageStepsinNexus.i_select_all_links_and_verify_if_works_and_lands_on_right_page_in_Nexus_Mobile()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mirchi Site in",
+    "description": "",
+    "id": "mirchi-site-in",
+    "keyword": "Feature",
+    "uri": "features/FooterinNexus.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8284382346,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Check for Google Ads",
+        "description": "",
+        "id": "mirchi-site-ads;check-for-google-ads",
+        "after": [
+          {
+            "result": {
+              "duration": 1381149051,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19267123120,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open mirchi website",
+            "match": {
+              "location": "HomePageSteps.i_open_mirchi_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49012564,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I check for Ads",
+            "match": {
+              "location": "GoogleAdsPageSteps.i_check_for_Ads()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215283377,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "GoogleAds Should display",
+            "match": {
+              "location": "GoogleAdsPageSteps.googleads_Should_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6668165046,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Check for Google Ads in mobile",
+        "description": "",
+        "id": "mirchi-site-ads;check-for-google-ads-in-mobile",
+        "after": [
+          {
+            "result": {
+              "duration": 1620030202,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14433264426,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I open mirchi website in Nexus",
+            "match": {
+              "location": "HeaderNavStepsinNexus.i_open_mirchi_website_in_Nexus()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101742734,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I check for Ads",
+            "match": {
+              "location": "GoogleAdsPageSteps.i_check_for_Ads()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8898300272,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "GoogleAds Should display",
+            "match": {
+              "location": "GoogleAdsPageSteps.googleads_Should_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mirchi Site Ads",
+    "description": "",
+    "id": "mirchi-site-ads",
+    "keyword": "Feature",
+    "uri": "features/GoogleAds.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9921008108,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Select Navigation",
+        "description": "",
+        "id": "mirchi-site;select-navigation",
+        "after": [
+          {
+            "result": {
+              "duration": 2135117119,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8602796878,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I open mirchi website",
+            "match": {
+              "location": "HomePageSteps.i_open_mirchi_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17918306039,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click on NavBar",
+            "match": {
+              "location": "HomePageSteps.i_click_on_NavBar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12611819901,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I select a links and verify if works and lands on right page",
+            "match": {
+              "location": "HeaderNavSteps.i_select_a_links_and_verify_if_works_and_lands_on_right_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mirchi Site",
+    "description": "",
+    "id": "mirchi-site",
+    "keyword": "Feature",
+    "uri": "features/SelectCheckout.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7452382698,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Select Navigation",
+        "description": "",
+        "id": "mirchi-site-in-mobile-mode;select-navigation",
+        "after": [
+          {
+            "result": {
+              "duration": 1340740687,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11837928659,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I open mirchi website in Nexus",
+            "match": {
+              "location": "HeaderNavStepsinNexus.i_open_mirchi_website_in_Nexus()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7936490390,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click On NavBar",
+            "match": {
+              "location": "HeaderNavStepsinNexus.i_click_On_NavBar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 177081531,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I select a links and verify if works and lands on Right page",
+            "match": {
+              "location": "HeaderNavStepsinNexus.i_select_a_links_and_verify_if_works_and_lands_on_Right_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mirchi Site in Mobile Mode",
+    "description": "",
+    "id": "mirchi-site-in-mobile-mode",
+    "keyword": "Feature",
+    "uri": "features/SelectCheckoutinNexus.feature"
+  }
+]
