@@ -39,8 +39,8 @@ public class HomePageSteps {
 	}
 	
 
-	@Then("^user select a links and verify if works and lands on right page$")
-	public void user_select_a_links_and_verify_if_works_and_lands_on_right_page() throws Throwable {
+	@Then("^user verify menu links$")
+	public void user_verify_menu_links() throws Throwable {
 
 		HomePageAction.menuItems(driver);
 
