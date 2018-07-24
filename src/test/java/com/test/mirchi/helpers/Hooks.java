@@ -19,7 +19,7 @@ public class Hooks {
 	@Before
 	/**
 	 * Delete all cookies at the start of each scenario to avoid shared state
-	 * between tests and tests
+	 * between tests
 	 */
 	public void openBrowser() throws MalformedURLException {
 		System.out.println("Called openBrowser");
